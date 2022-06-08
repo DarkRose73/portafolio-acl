@@ -1930,7 +1930,7 @@ button,
   transition: border-color 0.2s ease;
   background-color: transparent;
   border: solid 1px !important;
-  border-color: rgba(255, 255, 255, 0.15) !important;
+  border-color: rgba(255, 255, 255, 0.8) !important;
   border-radius: 3em;
   color: #ffffff !important;
   cursor: pointer;
@@ -3313,7 +3313,7 @@ table.alt tfoot {
 }
 
 .wrapper.style1 {
-  background-color: #5e42a6;
+  background-color: #000;
 }
 
 .wrapper.style1-alt {
@@ -3321,7 +3321,7 @@ table.alt tfoot {
 }
 
 .wrapper.style2 {
-  background-color: #5052b5;
+  background-color: #222;
 }
 
 .wrapper.style2-alt {
@@ -3329,7 +3329,7 @@ table.alt tfoot {
 }
 
 .wrapper.style3 {
-  background-color: #b74e91;
+  background-color: #111;
 }
 
 .wrapper.style3-alt {
@@ -3583,7 +3583,7 @@ body.is-preload .wrapper.fade > .inner {
 
 #sidebar {
   padding: 2.5em 2.5em 0.5em 2.5em;
-  background: #312450;
+  background: #333;
   cursor: default;
   height: 100vh;
   left: 0;
@@ -3821,14 +3821,14 @@ body.is-ie #sidebar > .inner {
 }
 
 #sidebar nav a:before {
-  background: #3c2c62;
+  background: #333;
 }
 
 #sidebar nav a:after {
   background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
   background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
   background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-  background-image: linear-gradient(to right, #5e42a6, #b74e91);
+  background-image: linear-gradient(to left, #fff, #333);
   -moz-transition: max-width 0.2s ease;
   -webkit-transition: max-width 0.2s ease;
   -ms-transition: max-width 0.2s ease;
@@ -3959,5 +3959,5 @@ body.is-preload #sidebar nav ul li {
 }
 
 .resaltar {
-  color: rgb(219, 0, 171);
+  color: rgb(0, 100, 113);
 }
